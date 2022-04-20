@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Basics</title>
+    <link rel="stylesheet" href="frontendBasics.css">
+</head>
+
+<body>
+    <h1>Frontend Basics</h1>
+    <section>
+        <div class="formContainer">
+            <form action="\test">
+                <div class="formInput">
+                    <label for="inputNum">Quantos números deseja? (Entre 10 e 100)</label>
+                    <input type="text" name="inputNum" id="inputNum">
+                </div>
+                <div class="formButton">
+                    <button>Gerar números!</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section>
+        <div class="results">
+            <h3 id="randomNum">Números aleatórios</h3>
+        </div>
+        <div class="results">
+            <h3 id="ascOrder">Ordenados de forma crescente</h3>
+        </div>
+        <div class="results">
+            <h3 id="descOrder">Ordenados de forma decrescente</h3>
+        </div>
+        <div class="results">
+            <h3 id="oddAsc">Ímpares crescentes</h3>
+        </div>
+        <div class="results">
+            <h3 id="evenDesc">Pares decrescentes</h3>
+        </div>
+    </section>
+    <script src="frontendBasics.js"></script>
+</body>
+
+</html>
